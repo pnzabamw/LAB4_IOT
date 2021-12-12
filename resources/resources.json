@@ -1,0 +1,39 @@
+{
+    "pi": {
+        "name": "WoT Pi",
+        "description": "A simple Security System",
+        "port": 4000,
+        "sensors": {
+            "Pir": {
+                "name": "Passive Infrared Sensor",
+                "description": "A passive infrared sensor. When 'true' someone is present.",
+                "value": true,
+                "gpio": 17
+            }
+        },
+        "actuators": {
+            "leds": {
+                "1": {
+                    "name": "Red light",
+                    "value": false,
+                    "gpio": 4
+                },
+                "2": {
+                    "name": "Green  light",
+                    "value": false,
+                    "gpio": 9
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+    
+
+    
+
+
